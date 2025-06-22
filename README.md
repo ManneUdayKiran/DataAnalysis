@@ -1,5 +1,6 @@
-
 # 📊 Colab & Conquer — Your First Data Notebook
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uLJv5fdGHPs08FUtRQ5mANvMx_bTKlPO?usp=sharing)
 
 This project demonstrates basic exploratory data analysis (EDA) using **Google Colab**, **pandas**, and **matplotlib**. The goal is to load a dataset, generate summary statistics, and visualize feature distributions through histograms.
 
@@ -39,40 +40,29 @@ The dataset is loaded directly using pandas and contains multiple numeric featur
 
 ## 📌 How to Run
 
-1. Open [Google Colab](https://colab.research.google.com/)
-2. Copy the code from the main notebook or use the following:
-   ```python
-   import pandas as pd
-   import matplotlib.pyplot as plt
-
-   url = "https://bit.ly/4nejNue"
-   df = pd.read_csv(url)
-
-   print(df.describe())
-   df.hist(figsize=(12, 8))
-   plt.show()
-````
+1. Click the "Open in Colab" badge above ☝️  
+2. Run each code cell in the notebook step by step.
 
 ---
 
 ## 📚 Learning Outcomes
 
-* Learn to use pandas for data inspection.
-* Understand basic statistical summaries.
-* Visualize data distributions with histograms.
-* Practice writing clean, readable EDA notebooks.
+- Learn to use pandas for data inspection.
+- Understand basic statistical summaries.
+- Visualize data distributions with histograms.
+- Practice writing clean, readable EDA notebooks.
 
 ---
 
 ## 📸 Sample Output
 
-*(Optional: Add screenshots of histograms and `.describe()` output here)*
+![image](https://github.com/user-attachments/assets/4e2eb4c9-ea46-41e0-9451-a5676e1ed185)
+
 
 ---
 
 ## 🧠 Bonus Ideas
 
-* Add correlation heatmaps with `seaborn`.
-* Perform missing value analysis.
-* Use boxplots for outlier detection.
-
+- Add correlation heatmaps with `seaborn`.
+- Perform missing value analysis.
+- Use boxplots for outlier detection.
